@@ -6,8 +6,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
   </head>
   <body>
-    <p>Valeur : {{text}}</p>
-    <button ng-click = "text = text + 1" ng-init="text = 0" >+</button>
-    <button ng-click = "text = text - 1" ng-init="text = 0">-</button>
+    <p ng-init="number = 0">Valeur : {{number}}</p>
+    <button ng-click="number = number + 1">+</button>
+    <button ng-click="number = number - 1">-</button>
   </body>
 </html>
